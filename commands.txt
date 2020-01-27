@@ -1,0 +1,6 @@
+/DatingApp.API (ASP.NET web API)
+
+dotnet ef migrations add AddedUserEntity
+dotnet ef database update
+
+/DatingApp.SPA (Angular)
