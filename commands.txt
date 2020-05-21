@@ -3,4 +3,8 @@
 dotnet ef migrations add AddedUserEntity
 dotnet ef database update
 
+dotnet ef migrations add AddedPublicId
+dotnet ef database update
+
 /DatingApp.SPA (Angular)
+
