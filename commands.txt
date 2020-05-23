@@ -6,6 +6,9 @@ dotnet ef database update
 dotnet ef migrations add AddedPublicId
 dotnet ef database update
 
+dotnet ef migrations add AddedLikeEntity
+dotnet ef database update
+
 /DatingApp.SPA (Angular)
 
 - to generate a new component ( perhaps make sure you are in src/app )
