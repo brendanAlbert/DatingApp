@@ -8,8 +8,11 @@ dotnet ef database update
 
 /DatingApp.SPA (Angular)
 
-- to generate a new component
+- to generate a new component ( perhaps make sure you are in src/app )
 > ng g component /<folder>/<file_name>
+
+- to generate a new interface ( perhaps make sure you are in src/app )
+> ng generate i _models/pagination
 
 - to build + run frontend
 > ng server
